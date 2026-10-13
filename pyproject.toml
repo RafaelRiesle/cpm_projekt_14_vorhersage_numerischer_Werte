@@ -18,6 +18,7 @@ dependencies = [
   "pymssql>=2.4.4",
   "fastparquet>=2026.9.0",
   "pyarrow>=26.0.0",
+  "matplotlib>=3.11.2",
 ]
 
 [dependency-groups]
