@@ -8,7 +8,7 @@ class DecisionTreeModel(BaseRegressionModel):
         super().__init__(
             DecisionTreeRegressor(random_state=42),
             {
-                "max_depth": [2, 3, 5, 8, None],
+                "max_depth": [3, 5, 10, None],
                 "min_samples_leaf": [2, 5, 10],
                 "ccp_alpha": [0.0, 0.001, 0.01],
             },

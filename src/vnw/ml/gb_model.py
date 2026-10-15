@@ -10,7 +10,7 @@ class GradientBoostingModel(BaseRegressionModel):
             {
                 "n_estimators": [100, 200],
                 "learning_rate": [0.03, 0.1],
-                "max_depth": [2, 3],
+                "max_depth": [3, 5, 10, None],
                 "min_samples_leaf": [2, 5],
                 "subsample": [0.8, 1.0],
             },
