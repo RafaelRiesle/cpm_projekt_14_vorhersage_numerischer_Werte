@@ -37,8 +37,8 @@ class TimeSeriesPlots:
             )
 
         ax.set_title("Verkaufsbeträge von Road-Bikes über die Zeit")
-        ax.set_xlabel("OrderDate")
-        ax.set_ylabel("UnitPrice")
+        ax.set_xlabel("Bestelldatum")
+        ax.set_ylabel("Verkaufspreis")
 
         ax.legend(title="Model")
         ax.tick_params(axis="x", labelrotation=45)

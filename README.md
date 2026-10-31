@@ -9,60 +9,45 @@ Anleitung: Die Ausarbeitung soll eine Darstellung der Theorie der Entscheidungsb
 Datenquelle: Adventure WorksDW (MS SQL Server)** **
 
 
+**Inhaltsverzeichnis**
 
+1. **Einleitung**
+   1.1 Problemstellung und Relevanz
+   1.2 Zielsetzung und Forschungsfragen
+   1.3 Aufbau der Arbeit
+2. **Theoretische Grundlagen**
+   2.1 Grundlagen des Data Mining und maschinellen Lernens
+   2.2 Entscheidungsbäume zur Vorhersage numerischer Werte
+   2.3 Aufbau und Funktionsweise von Regressionsbäumen
+   2.4 Auswahl geeigneter Prädiktoren
+   2.5 Lineare Vorhersagefunktionen
+3. **Datenbasis und Datenaufbereitung**
+   3.1 Vorstellung der Datenquelle Adventure WorksDW
+   3.2 Auswahl und Verknüpfung der relevanten Datenbanktabellen
+   3.3 Definition der Zielvariable und der Eingangsvariablen
+   3.4 Aufbereitung und Aggregation der Verkaufsdaten
+4. **Entwicklung und Optimierung des Regressionsbaums**
+   4.1 Methodisches Vorgehen und Modellerstellung
+   4.2 Auswahl der optimalen Produkteigenschaften
+   4.3 Aufbau und Bewertung des Entscheidungsbaums
+   4.4 Pruning zur Reduktion der Baumkomplexität
+   4.5 Ermittlung der linearen Vorhersagefunktion
+   4.6 Bewertung der Prognosequalität
+5. **Ergebnisse und Anwendung des Modells**
+   5.1 Analyse der Verkaufsstückzahlen nach Subkategorien
+   5.2 Identifikation der absatzstärksten Subkategorien
+   5.3 Prognose der Verkaufsstückzahl für das Produkt „Road-Racer“
+   5.4 Interpretation der Ergebnisse
+6. **Diskussion und kritische Würdigung**
+   6.1 Aussagekraft und Grenzen des Regressionsbaums
+   6.2 Bewertung der Modellkomplexität und Prognosequalität
+   6.3 Wirtschaftliche Bedeutung der Ergebnisse
+7. **Fazit und Ausblick**
 
-## 1. Einleitung
+**Literaturverzeichnis**
 
-1.1 Problemstellung und Zielsetzung
-1.2 Aufgabenstellung und Forschungsfragen
-1.3 Aufbau der Ausarbeitung
+**Anhang**
 
-## 2. Theoretische Grundlagen der Entscheidungsbäume
-
-2.1 Grundlagen und Funktionsweise von Entscheidungsbäumen
-2.2 Klassifikationsbäume und Regressionsbäume im Vergleich
-2.3 Entscheidungsbäume für numerische Vorhersagen
-2.4 Auswahl geeigneter Produkteigenschaften als Prädiktoren
-2.5 Hierarchische Strukturierung der Produkteigenschaften
-
-## 3. Methodik zur Erstellung des Regressionsbaums
-
-3.1 Beschreibung der Datenbasis und Zielvariable (Verkaufsmenge)
-3.2 Definition der Prädiktoren: Produktlinie, Modell, Kategorie und Subkategorie
-3.3 Auswahl des optimalen Aufteilungskriteriums
-3.4 Aufbau des Regressionsbaums und Ermittlung der Vorhersagewerte
-3.5 Minimierung der Hierarchiestufen durch Pruning
-3.6 Bewertung der Modellgüte und Vermeidung von Overfitting
-
-## 4. Anwendung auf die Verkaufsprognose
-
-4.1 Datenanalyse und Identifikation relevanter Produkteigenschaften
-4.2 Konstruktion und Visualisierung des hierarchischen Regressionsbaums
-4.3 Bestimmung der optimalen Baumtiefe und Beschneidung der Zweige
-4.4 Vergleich der Verkaufszahlen nach Subkategorien
-4.5 Identifikation der Subkategorien mit den höchsten Stückzahlen
-4.6 Verkaufsprognose für das neue Produkt „Road-Racer“
-4.6.1 Zuordnung zu Produktlinie, Modell, Kategorie und Subkategorie
-4.6.2 Anwendung des reduzierten Regressionsbaums
-4.6.3 Berechnung und Interpretation der prognostizierten Verkaufsmenge
-
-## 5. Ergebnisse und Diskussion
-
-5.1 Darstellung und Interpretation des optimalen Regressionsbaums
-5.2 Beantwortung der Forschungsfragen
-5.3 Aussagekraft und Grenzen der Verkaufsprognose
-5.4 Kritische Würdigung des Pruning-Verfahrens
-
-## 6. Fazit und Ausblick
-
-6.1 Zusammenfassung der wesentlichen Ergebnisse
-6.2 Beurteilung der Eignung des Regressionsbaums
-6.3 Weiterführende Ansätze zur Verbesserung der Verkaufsprognose
-
-## 7. Literaturverzeichnis
-
-## 8. Anhang
-
-8.1 Verwendete Datengrundlage
-8.2 Berechnungen und Modellparameter
-8.3 Vollständiger und beschnittener Regressionsbaum
+- SQL-Abfragen
+- Zusätzliche Tabellen und Abbildungen
+- Modellparameter und weitere Ergebnisse
