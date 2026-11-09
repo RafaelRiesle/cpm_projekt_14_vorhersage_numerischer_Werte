@@ -51,7 +51,6 @@ class LinearRegressionTree:
         self._X_fit_ = X_array.copy()
         self._y_fit_ = y_array.copy()
 
-        # CART-Entscheidungsbaum
         self.tree_model_ = DecisionTreeRegressor(**self._get_tree_parameters())
 
         self.tree_model_.fit(X_array, y_array)
@@ -110,10 +109,6 @@ class LinearRegressionTree:
             rows.append(row)
 
         return pd.DataFrame(rows)
-
-    # --------------------------------------------------------
-    # Informationen über die Blätter
-    # --------------------------------------------------------
 
     def get_leaf_models(self):
 
