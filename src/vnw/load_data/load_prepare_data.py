@@ -13,7 +13,6 @@ class LoadPrepareData:
         return df
 
     def _load_parquet_file(self) -> pd.DataFrame:
-        # Load data from Parquet file
         df = pd.read_parquet(self.query_data_file)
         return df
 
