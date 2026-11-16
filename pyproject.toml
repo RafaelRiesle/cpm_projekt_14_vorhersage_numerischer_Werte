@@ -19,6 +19,11 @@ dependencies = [
   "fastparquet>=2026.9.0",
   "pyarrow>=26.0.0",
   "matplotlib>=3.11.2",
+  "plotly-express>=0.4.1",
+  "nbformat>=5.11.1",
+  "scikit-learn>=1.9.1",
+  "shap>=0.53.0",
+  "seaborn>=0.13.2",
 ]
 
 [dependency-groups]
@@ -34,7 +39,7 @@ line-length = 88
 target-version = "py313"
 
 [tool.ruff.lint]
-select = ["E", "F", "I", "B", "UP", "ANN"]
+select = ["E", "F", "I", "B", "UP"]
 
 [tool.ruff.format]
 quote-style = "double"
